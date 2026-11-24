@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jarvis</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Jarvis">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#0b0e12">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" href="favicon.png">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #0b0e12; color: #f2f0eb;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    min-height: 100dvh; display: flex; flex-direction: column;
+    align-items: center; justify-content: center; gap: 18px;
+    padding: 32px 24px; text-align: center;
+  }
+  img.icon { width: 132px; height: 132px; border-radius: 30px; box-shadow: 0 12px 40px rgba(0,0,0,.55); }
+  h1 { font-size: 34px; font-weight: 700; letter-spacing: .2px; }
+  p.sub { color: #9aa3ad; font-size: 15px; margin-top: -8px; }
+  a.open {
+    margin-top: 14px; display: block; width: 100%; max-width: 340px;
+    background: #e0815f; color: #16100d; text-decoration: none;
+    font-size: 19px; font-weight: 700; padding: 17px 20px; border-radius: 16px;
+  }
+  a.open:active { background: #c86c4e; }
+  p.note { color: #6d757e; font-size: 13px; line-height: 1.5; max-width: 340px; margin-top: 10px; }
+</style>
+</head>
+<body>
+  <img class="icon" src="icon-512.png" alt="Jarvis">
+  <h1>Jarvis</h1>
+  <p class="sub">Claude &middot; online 24/7</p>
+  <a class="open" href="https://163.192.54.248:7681/">Open Jarvis</a>
+  <p class="note">Sign in with the terminal login (user <b>remy</b>). Safari may warn the connection is not private &mdash; that is our own server&rsquo;s certificate; tap Show Details, then &ldquo;visit this website.&rdquo;</p>
+</body>
+</html>
